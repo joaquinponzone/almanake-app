@@ -39,7 +39,7 @@ export function NavUser({
               className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground [&>svg]:size-5"
             >
               <Avatar className="size-8">
-                <AvatarImage src={user.avatar} alt={user.name} />
+                <AvatarImage src={user.avatar} alt={user.name} className="rounded-lg object-cover"/>
                 <AvatarFallback className="rounded-lg">S</AvatarFallback>
               </Avatar>
               <div className="grid flex-1 text-left text-sm leading-tight">
