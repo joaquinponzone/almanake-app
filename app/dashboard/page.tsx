@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Experiment 06 - Crafted.is",
+  title: "Calendar - Almanke",
 };
 
 import { AppSidebar } from "@/components/app-sidebar";
