@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Experiment 06 - Crafted.is",
+  title: "Calendar - Almanke",
 };
 
 import { AppSidebar } from "@/components/app-sidebar";
@@ -19,7 +19,7 @@ export default function Page() {
             <BigCalendar />
           </div>
         </SidebarInset>
-        <div className="w-64 flex ">
+        <div className="w-56">
             <TasksSidebar />
         </div>
       </div>

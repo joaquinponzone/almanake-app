@@ -49,7 +49,7 @@ export function TasksSidebar() {
   // const [tasks, setTasks] = React.useState(mockTasks);
 
   return (
-    <aside className="w-64 shrink-0 p-4 flex flex-col gap-4 dark scheme-only-dark">
+    <aside className="w-56 shrink-0 p-4 flex flex-col gap-4 dark scheme-only-dark">
       {/* Header */}
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-semibold text-lime-200">Pending Tasks</h2>
